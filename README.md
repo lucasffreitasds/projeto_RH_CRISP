@@ -102,12 +102,6 @@ Execute o notebook a partir da raiz do repositório, usando o kernel do ambiente
 
 Como o projeto ainda está no início, os principais pontos que preciso desenvolver ou revisar são:
 
-- **Verificar a origem e a qualidade da base:** entender como essa versão foi construída e conferir identificadores repetidos, escalas de satisfação e possíveis inconsistências.
-
-- **Revisar a divisão de treino e teste:** existem valores de `EmployeeNumber` presentes nos dois conjuntos. Preciso verificar o que essas repetições representam e evitar que registros do mesmo funcionário contaminem a avaliação.
-
-- **Ajustar as variáveis de renda relativa:** atualmente, médias, medianas e desvios são calculados separadamente em cada conjunto. Vou utilizar as referências aprendidas no treino para transformar os demais dados.
-
 - **Concluir a análise exploratória:** avaliar as hipóteses, investigar relações entre as variáveis e restringir as análises que orientam a modelagem ao conjunto de treino. Alguns gráficos atuais utilizam a base completa.
 
 - **Revisar as variáveis criadas:** avaliar indicadores redundantes, divisões com denominadores próximos de zero e a contribuição de cada atributo para o problema.
